@@ -8,7 +8,7 @@ export default function Form({ onSubmit, currentAccountId }) {
           <label htmlFor="message" className="form-label">
             Message:
           </label>
-          <input
+          <textarea
             autoComplete="off"
             autoFocus
             id="message"
